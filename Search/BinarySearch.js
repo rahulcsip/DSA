@@ -51,6 +51,7 @@ console.log(binarySearch([1,2,3,6,7,8,10,18],1)) //return index -0
 console.log(binarySearch([1,2,3,6,7,8,10,18],18)) //return index - 7
 console.log(binarySearch([1,2,3,6,7,8,10,18],50)) //return index - -1
 console.log(binarySearch([1,2,3,6,7,8,10,18],7)) //return index - 4
+console.log(binarySearch([],7)) //return index - 4
 
 
 // Big- O(log(n))
